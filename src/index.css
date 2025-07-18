@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Container:hover .icon {
+    color: rgb(14, 189, 14);
+}
+
+.ServiceContainer:hover .targetIcon {
+    transform: scale(1.1);
+}
+
+.articalContainer img {
+    transition: all 200ms ease-in;
+}
+
+.articalContainer:hover img {
+    transform: scale(1.1);
+}
